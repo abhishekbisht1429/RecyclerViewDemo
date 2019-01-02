@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         //value event listener first calls when it is attached to the reference
         //after that whenever there is a change in the data it gets fired automatically
+
         ValueEventListener valueEventListener = new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
